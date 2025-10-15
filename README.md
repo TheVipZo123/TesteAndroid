@@ -38,3 +38,15 @@
 - Na LISTA DE TAREFAS, o usuário deve poder CRIAR uma nova tarefa, informando a descrição.
 - Na LISTA DE TAREFAS, o usuário deve poder DELETAR uma tarefa, com um aviso para confirmação da ação.
 - O usuário deve poder realizar o LOGOUT do aplicativo.
+
+
+# O que há nesse Projeto
+
+## 🚀 Funcionalidades
+
+- ✅ **Adicionar tarefas** — o usuário pode criar novas tarefas por meio de um campo de texto.  
+- 🔄 **Marcar como concluída** — cada tarefa possui um *CheckBox* que pode ser marcado/desmarcado.  
+- ❌ **Excluir tarefas** — é possível remover tarefas individualmente através de um botão com ícone de “X”.  
+- 🧠 **Gerenciamento de estado com ViewModel** — o app utiliza `LoginViewModel` e `TaskViewModel` para separar a lógica da interface.  
+- 🖥️ **Interface responsiva** — layout feito com `RecyclerView` para exibir a lista de tarefas dinamicamente.  
+- 💾 **LiveData** — as alterações na lista são refletidas automaticamente na interface.
